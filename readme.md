@@ -8,9 +8,9 @@ Os seguintes cenários foram implementados:<br>
 - Deve pesquisar sem inserir nenhum texto<br>
 - Deve apagar o texto digitado na barra de pesquisa<br>
 
-<h3> Escrevi dois tipos de organização de testes para validar o padrão page object e também utilizando a função Commands do cypress <h3>
-<p><b>Home<b> - Foi utilizado o padrão page object utlizando a classe Title<p><br>
-<p><b>Search<b> - Foi utilizado a função Commands para códigos repetivos<p>
+<h3> Escrevi dois tipos de organização de testes para validar o padrão page object e também utilizando a função Commands do cypress </h3>
+<p>Home - Foi utilizado o padrão page object utlizando a classe Title<p><br>
+<p>Search - Foi utilizado a função Commands para códigos repetivos<p>
 
 
 <h3>Para executar o projeto: </h3>
