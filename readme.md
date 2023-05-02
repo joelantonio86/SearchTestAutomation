@@ -12,5 +12,5 @@ Os seguintes cenários foram implementados:<br>
 <p> - Basta clonar o projeto, através da URL:https://github.com/joelantonio86/SearchTestAutomation.git <br>  </p>
 <p>Ao clonar o projeto, execute os comandos ><br> npm install <br> yarn add cypress@12.2.0 -D <br> npx cypress run <p>
 
-[![CYPRESS](https://img.shields.io/badge/RESTASSUNRED%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=2F9E24)](https://rest-assured.io)
-[![JAVASCRIPT](https://img.shields.io/badge/JAVA%20-%23323330.svg?&style=for-the-badge&logo=cards%20estrelas&logoColor=black&color=F0F0F0)](https://www.java.com/pt-BR/)
+[![CYPRESS](https://img.shields.io/badge/CYPRESS%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=F745B5)](https://www.cypress.io)
+[![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT%20-%23323330.svg?&style=for-the-badge&logo=cards%20estrelas&logoColor=black&color=FFB800)](https://www.javascript.com)
