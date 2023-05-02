@@ -9,8 +9,8 @@ Os seguintes cenários foram implementados:<br>
 - Deve apagar o texto digitado na barra de pesquisa<br>
 
 <h3> Escrevi dois tipos de organização de testes para validar o padrão page object e também utilizando a função Commands do cypress </h3>
-<p>Home - Foi utilizado o padrão page object utlizando a classe Title<p><br>
-<p>Search - Foi utilizado a função Commands para códigos repetivos<p>
+<p>Home - Foi utilizado o padrão page object utlizando a classe Title<br>
+Search - Foi utilizado a função Commands para códigos repetivos<p>
 
 
 <h3>Para executar o projeto: </h3>
