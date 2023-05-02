@@ -1,8 +1,9 @@
 /// <reference types="cypress" />
 
-describe('O site deve estar online', () => {
-  it('passes', () => {
-    cy.visit('/')
-    cy.title().should('eq', 'Blog do Agi')
+import search from "../support/pages/search"
+
+describe('Health Check', () => {
+  it('Acessar o site e validar o título da página', () => {
+    search.validarTitulo();
   })
 })

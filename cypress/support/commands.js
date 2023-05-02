@@ -23,20 +23,41 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
-Cypress.Commands.add('createTask', () =>{
+const TextName = 'Governo'
+Cypress.Commands.add('accessPage', () => {
     cy.visit('/')
     cy.get('#search-open')
-        .click({force: true});
-
+        .click({ force: true });
 })
 
-Cypress.Commands.add('textName', (TextName) =>{
+Cypress.Commands.add('typeText', (TextName) => {
     cy.get('.desktop-search > .search-form > label > .search-field')
-            .type(TextName)
+        .type(TextName)
 })
 
-Cypress.Commands.add('searchSubmit', () =>{
+Cypress.Commands.add('searchButton', () => {
     cy.get('.desktop-search > .search-form > .search-submit')
-            .click();
+        .click();
 })
+
+Cypress.Commands.add('validateSearchReturn', () => {
+    cy.get('header h1 span')
+        .should('be.visible')
+        .should('have.text', TextName)
+});
+
+
+Cypress.Commands.add('validateSearchEmpty', () => {
+    cy.get('header h1 span')
+        .should('be.hidden')
+        .should('have.text', '')
+});
+
+Cypress.Commands.add('clearField', () => {
+    cy.get('.desktop-search > .search-form > label > .search-field')
+        .clear()
+
+    cy.get('.desktop-search > .search-form > label > .search-field')
+        .should('have.text', '')
+
+});
