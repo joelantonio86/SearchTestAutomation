@@ -17,9 +17,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5.6.1
         with:
-          cache: 'npm'
-          cache-dependency-path: subdir/package-lock,json
-          install-command: npm install
+          install-command: yarn install
           browser: electron
           record: true
           group: UI Electron
