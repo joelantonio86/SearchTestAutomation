@@ -1,0 +1,11 @@
+{
+  "name": "SearchTestAutomation",
+  "version": "1.0.0",
+  "description": "Desafio QA Automation",
+  "main": "index.js",
+  "author": "Joel Antônio",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "12.2.0"
+  }
+}
